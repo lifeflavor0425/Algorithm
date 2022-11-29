@@ -17,7 +17,6 @@ function solution(a, b) {
   let arr = [a, b].sort((a, b) => b - a);
   const remainder = gcd(arr[0], arr[1]);
   arr = arr.map((element) => element / remainder);
-  console.log(arr, remainder);
   if (a > b) {
     return sosu(arr[1]).length === 0 ? 1 : 2;
   } else {
@@ -34,7 +33,6 @@ function gcd(a, b) {
 }
 // 소인수 분해
 function sosu(num) {
-  console.log(num);
   let i = 2;
   let primes = [];
   while (true) {

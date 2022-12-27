@@ -18,11 +18,14 @@ def solution(arr1, arr2):
     answer = []
     tmp = []
     for num1, num2 in zip(arr1, arr2):
-        print(num1, num2)
         for index in range(len(num1)):
             tmp.append(num1[index] + num2[index])
+        answer.append(tmp)
+        tmp = []
     print(answer)
     return answer
+    # 한줄
+    # answer = [[c + d for c, d in zip(a, b)] for a, b in zip(arr1, arr2)]
 
 
 solution([[1, 2], [2, 3]], [[3, 4], [5, 6]])

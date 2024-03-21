@@ -1,0 +1,23 @@
+{
+  "name": "algorithm",
+  "version": "1.0.0",
+  "description": "프로그래머스 or 백준",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lifeflavor0425/Algorithm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lifeflavor0425/Algorithm/issues"
+  },
+  "homepage": "https://github.com/lifeflavor0425/Algorithm#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
